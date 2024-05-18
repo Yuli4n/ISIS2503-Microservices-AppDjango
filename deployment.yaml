@@ -233,6 +233,7 @@ resources:
           cd /home/labs
           sudo git clone https://github.com/Yuli4n/ISIS2503-Microservices-AppDjango.git
           cd ISIS2503-Microservices-AppDjango/variables
+          sudo git pull
 
 - name: msd-measurements-ms
   type: compute.v1.instance
@@ -266,6 +267,7 @@ resources:
           cd /home/labs
           sudo git clone https://github.com/Yuli4n/ISIS2503-Microservices-AppDjango.git
           cd ISIS2503-Microservices-AppDjango/measurements
+          sudo git pull
           sudo pip3 install -r requirements.txt
           sudo python3 manage.py makemigrations
           sudo python3 manage.py migrate
@@ -304,6 +306,7 @@ resources:
           cd /home/labs
           sudo git clone https://github.com/Yuli4n/ISIS2503-Microservices-AppDjango.git
           cd ISIS2503-Microservices-AppDjango/places
+          sudo git pull
           sudo pip3 install -r requirements.txt
           sudo python3 manage.py makemigrations
           sudo python3 manage.py migrate
